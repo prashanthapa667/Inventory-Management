@@ -1,7 +1,7 @@
 # pgsInventoryManagement
 
 A simple product/inventory management REST API built with Spring Boot and MongoDB.
-Same layered structure as pgsEmpManagement: `entity -> repository -> service -> controller`.
+`entity -> repository -> service -> controller`.
 
 ## Product fields
 
