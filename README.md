@@ -60,11 +60,3 @@ GET /product/price?min=20&max=60
 GET /product/low-stock?threshold=3
 ```
 
-## Notes vs. the original pgsEmpManagement sample
-
-- Fixed the MongoDB config key: `spring.data.mongodb.uri` (the original used
-  `spring.mongodb.uri`, which Spring Boot's autoconfiguration doesn't actually read).
-- Runs on port `8082` so it can run alongside the original sample if needed.
-- Added Spring Data derived-query methods on the repository (`findByNameContainingIgnoreCase`,
-  `findByCategoryIgnoreCase`, `findByPriceBetween`, `findByQuantityLessThanEqual`) to back the
-  search/filter endpoints — no manual query-writing needed.
