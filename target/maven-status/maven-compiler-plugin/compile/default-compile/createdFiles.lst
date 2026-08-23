@@ -1,0 +1,5 @@
+com/pgs/pgsInventoryManagement/repository/ProductRepository.class
+com/pgs/pgsInventoryManagement/controller/ProductController.class
+com/pgs/pgsInventoryManagement/service/ProductService.class
+com/pgs/pgsInventoryManagement/PgsInventoryManagementApplication.class
+com/pgs/pgsInventoryManagement/entity/Product.class
